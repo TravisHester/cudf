@@ -6440,7 +6440,7 @@ class DatetimeProperties(object):
             index=self.series._index,
             name=self.series.name,
         )
-    
+
     @property
     def is_month_start(self):
         """
@@ -6451,7 +6451,7 @@ class DatetimeProperties(object):
         Booleans indicating if dates are the first day of the month.
         """
         return (self.day == 1).fillna(False)
-    
+
     @property
     def is_month_end(self):
         """
