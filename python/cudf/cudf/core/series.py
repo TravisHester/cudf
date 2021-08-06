@@ -6445,6 +6445,7 @@ class DatetimeProperties(object):
     def is_month_start(self):
         """
         Boolean indicator if the date is the first day of the month.
+
         Returns
         -------
         Series
@@ -6456,6 +6457,7 @@ class DatetimeProperties(object):
     def is_month_end(self):
         """
         Boolean indicator if the date is the last day of the month.
+
         Returns
         -------
         Series
